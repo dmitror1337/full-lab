@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Фітнес-клуб PowerFit</title>
+    <!--  CSS-файл (Лаба 2) -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <!-- Шапка сайту з навігацією (Лаба 1) -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1>PowerFit</h1>
+            <nav class="main-nav">
+                <!-- Внутрішня навігація (Лаба 1) -->
+                <a href="#about">Про клуб</a>
+                <a href="#trainers">Тренери</a>
+                <a href="#signup">Запис на заняття</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- Секція 1: Про клуб (Лаба 1) -->
+        <section id="about" class="section">
+            <h2>Про наш клуб</h2>
+            <p>PowerFit — це сучасний фітнес-клуб для тих, хто цінує здоров'я, силу та красу. Ми пропонуємо найкращі умови для досягнення ваших спортивних цілей.</p>
+            <p>Наші переваги:</p>
+            <!-- Список (Лаба 1) -->
+            <ul>
+                <li>Сучасне тренажерне обладнання</li>
+                <li>Професійні тренери з багаторічним досвідом</li>
+                <li>Групові та індивідуальні заняття</li>
+            </ul>
+            <!-- Зображення з атрибутом alt (Лаба 1) -->
+            <img src="images/gym.jpg" alt="Інтер'єр сучасного тренажерного залу PowerFit" class="content-img">
+            <!-- Зовнішнє посилання (Лаба 1) -->
+            <p>Більше про стандарти здорового способу життя читайте на сайті <a href="https://sport.ua/" target="_blank">Спорт.ua</a>.</p>
+        </section>
+
+        <!-- Секція 2: Тренери (Лаба 3 - Grid-сітка карток) -->
+        <section id="trainers" class="section">
+            <h2>Наші тренери</h2>
+            <div class="card-grid">
+                <!-- Картка 1 -->
+                <article class="card">
+                    <img src="images/trainer1.jpg" alt="Тренер Олександр" class="card-img">
+                    <h3 class="card-title">Олександр</h3>
+                    <p>Тренер тренажерного залу. Спеціалізація: важка атлетика, кросфіт.</p>
+                </article>
+                <!-- Картка 2 -->
+                <article class="card">
+                    <img src="images/trainer2.jpg" alt="Тренер Марія" class="card-img">
+                    <h3 class="card-title">Марія</h3>
+                    <p>Тренер з пілатесу та йоги. Спеціалізація: розтяжка, реабілітація.</p>
+                </article>
+                <!-- Картка 3 -->
+                <article class="card">
+                    <img src="images/trainer3.jpg" alt="Тренер Дмитро" class="card-img">
+                    <h3 class="card-title">Дмитро</h3>
+                    <p>Тренер з функціонального тренінгу. Спеціалізація: схуднення, витривалість.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Секція 3: Форма запису (Лаба 3) -->
+        <section id="signup" class="section">
+            <h2>Запис на заняття</h2>
+            <p>Заповніть форму нижче, і наш менеджер зв'яжеться з вами.</p>
+            
+            <form class="request-form">
+                <div class="form-field">
+                    <label for="name">Ваше ім'я</label>
+                    <input id="name" name="name" type="text" minlength="2" required placeholder="Введіть ім'я">
+                </div>
+
+                <div class="form-field">
+                    <label for="workout">Напрям тренування</label>
+                    <select id="workout" name="workout" required>
+                        <option value="">Оберіть напрям</option>
+                        <option value="gym">Тренажерний зал</option>
+                        <option value="yoga">Йога / Пілатес</option>
+                        <option value="crossfit">Кросфіт</option>
+                    </select>
+                </div>
+
+                <div class="form-field">
+                    <label for="date">Бажана дата першого візиту</label>
+                    <input id="date" name="date" type="date" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="message">Коментар або рівень підготовки</label>
+                    <textarea id="message" name="message" rows="4" minlength="5" required placeholder="Наприклад: новачок, маю травму коліна..."></textarea>
+                </div>
+
+                <button type="submit" class="button">Записатися</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Футер (Лаба 1) -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2026 Фітнес-клуб PowerFit. Всі права захищені.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
