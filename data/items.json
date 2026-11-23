@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Силове тренування для початківців",
+    "category": "strength",
+    "description": "Базові вправи для розвитку сили та правильної техніки.",
+    "image": "images/workout-strength-beginner.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Тренування з вільними вагами",
+    "category": "strength",
+    "description": "Комплекс вправ зі штангою та гантелями.",
+    "image": "images/workout-free-weights.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Функціональний тренінг",
+    "category": "functional",
+    "description": "Вправи для витривалості, координації та рухливості.",
+    "image": "images/workout-functional.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Кросфіт",
+    "category": "functional",
+    "description": "Інтенсивне поєднання силових і кардіо вправ.",
+    "image": "images/workout-crossfit.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Йога для початківців",
+    "category": "yoga",
+    "description": "Спокійне заняття для гнучкості, балансу та дихання.",
+    "image": "images/workout-yoga.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Пілатес",
+    "category": "yoga",
+    "description": "Контрольовані вправи для постави та м’язів корпуса.",
+    "image": "images/workout-pilates.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Кардіо тренування",
+    "category": "functional",
+    "description": "Заняття для покращення витривалості та роботи серця.",
+    "image": "images/workout-cardio.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Силове тренування середнього рівня",
+    "category": "strength",
+    "description": "Програма з базових вправ для тих, хто вже має досвід.",
+    "image": "images/workout-strength-advanced.jpg"
+  }
+]
